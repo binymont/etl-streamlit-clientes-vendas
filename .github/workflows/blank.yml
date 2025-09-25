@@ -2,13 +2,13 @@
 
 name: CI
 
-# Controls when the workflow will run
+
 
 on:
   push:
-    branches: [ "develop" ]         # Roda em push na develop
+    branches: [ "develop" ]         
   pull_request:
-    branches: [ "main" ]            # Roda em PRs cujo destino é main
+    branches: [ "main" ]            
   workflow_dispatch:
 
 jobs:
